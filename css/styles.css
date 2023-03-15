@@ -1,0 +1,97 @@
+
+/* .offcanvasNavbar{
+
+background-color: lightpink;
+
+
+*/
+#navbar-brand{
+align-items: flex-end;
+font-family: 'Hind Siliguri', sans-serif;
+font-size:18px;
+}
+
+li{
+color:#000;
+padding-top: 15px;
+font-size: 20px;
+font-family: 'Hind Siliguri', sans-serif;
+}
+
+.nav-item{
+color: #000000;
+font-family: 'Hind Siliguri', sans-serif;
+font-size: 14px;
+position:flex;
+font-size: 18px;
+
+}
+
+.precio{
+font-size :24px;
+font-family: 'Hind Siliguri', sans-serif;
+color:rgb(134, 134, 134);
+
+}
+
+#barra {
+background: #e9aff7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+border-bottom-color: 7px solid #090909;
+
+}
+
+#carrito{
+   display: flex-end;
+   padding-top: 25px;
+   
+}
+.submenu {
+    position: relative;
+    padding-top: 5px;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+.card{
+    
+border:none;
+
+    
+}
+.photos{
+    width: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding-bottom: 1px;
+
+}
+
+
+#img-carrito{
+width:60px;
+height:60px;
+padding-bottom: 10px;
+}
